@@ -1,0 +1,147 @@
+/* General Reset */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: rgb(238, 233, 228);
+    
+}
+
+/* Header Styles */
+header {
+    background: rgb(242, 230, 184);
+    color: rgb(14, 1, 1);
+    padding: 20px 0;
+    text-align: center;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    height:217px;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    padding: 20px;
+    /* align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 0px; */
+}
+
+.logo {
+    height: 150px;
+    margin-right: 60px;
+    border-radius: 75px;
+}
+
+.header-text {
+    text-align: left;
+}
+.old-name{
+    margin-top: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    background: #003366;
+    padding: 10px;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Banner Section */
+#banner img {
+    width:100%;
+    
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    /* background: white; */
+}
+
+#events-news {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.events-news-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    animation: scrolltext 10s linear infinite;
+    overflow: hidden;
+    height: 50px;
+    
+}
+
+.upcoming-events {
+    height: 80px;
+    /* display: inline-block; */
+    background: rgb(238, 233, 228);
+    padding: 5px;
+    
+    border-radius: 5px;
+    color:red;
+    
+    /* animation: floatMessage 5s linear infinite; */
+    position: absolute; 
+    animation: 8s linear 1s infinite  running leftmovement;
+    white-space: nowrap;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: red 0px 0.05px 0.05px;
+    border: none;
+    filter: brightness(100%);
+    
+}
+
+/* About and Photo Section */
+#about-photo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.about-section, .photo-gallery {
+    width: 45%;
+    background: rgb(156, 150, 36);
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.about-section img, .photo-gallery img {
+    width: 20%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
