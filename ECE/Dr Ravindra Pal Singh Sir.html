@@ -1,0 +1,251 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <style>
+        header {
+    background: rgb(242, 230, 184);
+    color: rgb(14, 1, 1);
+    padding: 20px 0;
+    text-align: center;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    height:217px;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    padding: 20px;
+    /* align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 0px; */
+}
+
+.logo {
+    height: 150px;
+    margin-right: 60px;
+    border-radius: 75px;
+}
+
+.header-text {
+    text-align: left;
+}
+.old-name{
+    margin-top: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    background: #003366;
+    padding: 10px;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+        body {
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 3px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin: 5px 0;
+            color: #333;
+        }
+
+        .header h2 {
+            font-size: 18px;
+            margin: 0;
+            color: #555555;
+        }
+
+        .profile-info {
+            margin-top: 20px;
+        }
+
+        .profile-info table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .profile-info th, .profile-info td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        .profile-info th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .profile-info td {
+            color: #555;
+        }
+        .intrest{
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact p {
+            margin: 5px 0;
+            color: #555;
+        }
+
+        .resume {
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .resume a {
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        .resume a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="niamt.png" alt="NIAMT Logo" class="logo">
+            <div class="header-text">
+                <h1>Welcome To Electronics and Computer Engineering (ECE) Department</h1>
+                <p>
+                    <h3>National Institute of Advanced Manufacturing Technology (NIAMT)</h3> 
+                    <p class="old-name">(Formerly National Institute of Foundry and Forge Technology) <br>
+                    Deemed to be University under Distinct Category under MoE, Govt. of India
+                    </p>
+                </p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#faculty">Faculty & Staff</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="#code-forge">Code Forge</a></li>
+                <li><a href="question bank.html">Question Bank</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="header">
+            <img src="Ravindra Paal Singh sir.png" alt="Profile Picture">
+            <h1>Dr. Ravinder Pal Singh
+            </h1>
+            <h2>Assistant Professor
+            </h2>
+        </div>
+
+        <div class="contact">
+            <p><strong>Department:</strong> Computer Engineering</p>
+            <p><strong>Email:</strong> rpsingh[at]niamt[dot]ac[dot]in</p>
+            <p><strong>Phone:</strong> 0651-2292086</p>
+            <p><strong>Office Room No.:135</strong> Ground Floor, Faculty Building
+            </p>
+        </div>
+
+        <div class="profile-info">
+            <table>
+                <tr>
+                    <th>Degree (Highest)</th>
+                    <th>Discipline</th>
+                    <th>Year</th>
+                    <th>Institute</th>
+                </tr>
+                <tr>
+                    <td>Discipline</td>
+                    <td>Mechanical</td>
+                    <td>2020</td>
+                    <td>IIT Delhi</td>
+                </tr>
+            </table>
+
+            <section class="intrest">
+                <h3>Teaching Interest:CAD/CAM, Additive manufacturing, Hybrid Machining, Advanced Manufacturing
+                </h3>
+                <p>-CAD/CAM, Additive manufacturing, Hybrid Machining, Advanced Manufacturing
+                </p>
+            </section>
+
+            <section class="intrest">
+            <h3>Research Interest:</h3>
+            <p>
+                CAD/CAM, Additive manufacturing, Hybrid Machining, Advanced Manufacturing
+
+            </p> 
+            </section>
+
+        </div>
+
+        <div class="resume">
+            <a href="resume.pdf" target="_blank">View Resume</a>
+        </div>
+
+    </div>
+    
+    <footer>
+        <p>© 2024 NIAMT. All Rights Reserved.</p> 
+    </footer>
+
+</body>
+</html>

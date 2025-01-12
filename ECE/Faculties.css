@@ -1,0 +1,134 @@
+header {
+  background: rgb(242, 230, 184);
+  color: rgb(14, 1, 1);
+  padding: 20px 0;
+  text-align: center;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  height:217px;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  padding: 20px;
+  /* align-items: center;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 0px; */
+}
+
+.logo {
+  height: 150px;
+  margin-right: 60px;
+  border-radius: 75px;
+}
+
+.header-text {
+  text-align: left;
+}
+.old-name{
+  margin-top: 15px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  background: #003366;
+  padding: 10px;
+  justify-content: center;
+  margin-top: -12px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+
+body {
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+.image { width: 100px; 
+    height: auto; 
+     border: 5px solid black; 
+      border-radius: 8px; 
+      
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+       margin-right: 15px; 
+
+    float: left;}
+
+
+
+  .container {
+    width: 90%;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+
+  
+  .details h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .details ol {
+    list-style-type: none;  
+    padding: 0;
+  }
+  
+  .details li {
+
+    margin-bottom: 20px; 
+    background-color: rgb(230, 230, 230);  
+    border-width: 3px;                    
+    border-style: solid;                 
+    border-color: black;                  
+    border-radius: 5px;                   
+    padding: 10px;                       
+    margin-bottom: 10px;                  
+  }
+  
+  .image {
+    width: 100px;               
+    height: auto;              
+    border: 3px solid black;    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    float: left;              
+  }
+  
+  .hyperlink h3 {
+    color: #5e00d8; 
+    text-decoration: none;  
+  }
+  
+  .hyperlink h3:hover {
+    color: #007BFF; 
+  }
+  footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+  
+ 
+  

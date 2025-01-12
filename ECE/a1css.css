@@ -1,0 +1,160 @@
+/* General Reset */
+header {
+    background: rgb(242, 230, 184);
+    color: rgb(14, 1, 1);
+    padding: 20px 0;
+    text-align: center;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    height:217px;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    padding: 20px;
+    /* align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 0px; */
+}
+
+.logo {
+    height: 150px;
+    margin-right: 60px;
+    border-radius: 75px;
+}
+
+.header-text {
+    text-align: left;
+}
+.old-name{
+    margin-top: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    background: #003366;
+    padding: 10px;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+/* header */
+
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+ 
+    line-height: 1.6;
+    
+    background-color: #f9f9f9;
+    color: #333;
+   
+   
+}
+.decimal{
+list-style-type: decimal;
+
+
+}
+.container {
+    max-width: 1000px;
+    margin: 80px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px black
+}
+
+/* Header Section */
+.p1 {
+    text-align: center;
+    padding: 20px 0;
+    background: #4e2583;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.p1 h1 {
+    font-size: 2rem;
+}
+
+.p1 .button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #ff5722;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Vision & Mission Sections */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: rgb(188, 212, 188);
+    border-radius: 5px;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #4e2583;
+}
+
+section ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+/* About & Courses Sections */
+.about, .courses, .honors {
+    background: #c6e0f3;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 10px;
+    background:#4e2583;
+    color: #fff;
+    border-radius: 5px;
+}
+.end {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+

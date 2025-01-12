@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>College Issue Reporting</title>
+    <link rel="stylesheet" href="contactpartcss.css">
+    
+</head>
+<header>
+    <div class="header-container">
+        <img src="niamt.png" alt="NIAMT Logo" class="logo">
+        <div class="header-text">
+            <h1>Welcome To Electronics and Computer Engineering (ECE) Department</h1>
+            <p>
+                <h3>National Institute of Advanced Manufacturing Technology (NIAMT)</h3> 
+                <p class="old-name">(Formerly National Institute of Foundry and Forge Technology) <br>
+                Deemed to be University under Distinct Category under MoE, Govt. of India
+                </p>
+            </p>
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="home.html" class="active">Home</a></li>
+            <li><a href="a1.html">About</a></li>
+            <li><a href="course.html">Courses</a></li>
+            <li><a href="Faculties.html">Faculty & Staff</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="cmain.html">Code Forge</a></li>
+            <li><a href="question bank.html">Question Bank</a></li>
+            <li><a href="contactpart.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<body>
+
+   
+
+    <main>
+        <h2>Contact Us</h2>
+        <form action="/submit_issue" method="POST">
+            <div class="form-group">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full_name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="issue-type">Type of Issue</label>
+                <select id="issue-type" name="issue_type" required>
+                    <option value="maintenance">Maintenance</option>
+                    <option value="academic">Academic</option>
+                    <option value="facilities">Facilities</option>
+                    <option value="administration">Administration</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="issue-description">Issue Description</label>
+                <textarea id="issue-description" name="issue_description" rows="4" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="priority">Priority Level</label>
+                <select id="priority" name="priority" required>
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+            </div>
+
+            <button type="submit">Submit Report</button>
+        </form>
+    </main>
+    <footer>
+        <p>© 2024 NIAMT. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
